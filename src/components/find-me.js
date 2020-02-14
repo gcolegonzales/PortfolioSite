@@ -7,9 +7,9 @@ import GitHub from '../images/github.png'
 function FindMe() {
     return (
         <Wrapper>
-            <MediaLink src={LinkedIn} />
-            <MediaLink src={Facebook} />
-            <MediaLink src={GitHub} />
+            <a href='https://www.linkedin.com/in/cole-gonzales-787975191/'> <MediaLink src={LinkedIn} /> </a>
+            <a href='https://www.facebook.com/cole.gonzales.5'> <MediaLink src={Facebook} /> </a>
+            <a href='https://github.com/gcolegonzales'> <MediaLink src={GitHub} /> </a>
         </Wrapper>
     )
 }
@@ -19,10 +19,19 @@ const Wrapper = styled.div `
     display: flex;
     justify-content: space-between;
     min-width: 25vw;
+
+    @media(max-width: 800px) {
+        min-width: 45vw;
+    }
 `
 
 const MediaLink = styled.img `
     max-width: 2.6rem;
+    transition: background .3s ease-in-out;
+
+    :hover {
+        background-color: silver;
+    }
 `
 
 export default FindMe
