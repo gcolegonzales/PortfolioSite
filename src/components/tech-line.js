@@ -19,13 +19,13 @@ function TechLine() {
             <Tile src={Node} alt="Node.js" />
             <Tile src={ReactImg} alt="React" />
             <Tile src={ReduxImg} alt="Redux" />
-            <Tile src={ExpressImg} alt="Express" />
             <Tile src={Sql} alt="Sqlite3" />
+            <Tile src={PostGresImg} alt="PostgreSQL" />
             <Tile src={KnexImg} alt="Knex.js" />
             <Tile src={CSSImg} alt="CSS" />
             <Tile src={HTMLImg} alt="HTML5" />
-            <Tile src={PostGresImg} alt="PostgreSQL" />
             <Tile src={SharepointImg} alt="Sharepoint" />
+            <Tile src={ExpressImg} alt="Express" />
         </TileWrapper>
     )
 }
