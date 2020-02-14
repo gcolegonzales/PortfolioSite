@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function HeaderHome() {
     return (
         <HeaderMain>
-            <Link href='https://github.com/gcolegonzales'>
+            <Link href='https://github.com/gcolegonzales' rel='noopener noreferrer' target='_blank'>
                 <Portriat src={ProfileImg} alt='Profile' />
                 <h2>Cole Gonzales</h2>
             </Link>

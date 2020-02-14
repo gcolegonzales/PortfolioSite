@@ -50,8 +50,8 @@ function PortfolioList() {
             <PortfolioItem
                 imgSrc={Gigapet}
                 projectTitle='Gigapet'
-                itemDesc='For this project, I was responsible for creating the back end. This was our first 
-                project (as well as our last) in the back end cirriculum. After a jam-packed several weeks 
+                itemDesc='For this project, I was responsible for creating the back end. This was our final 
+                project in the back end cirriculum. After a jam-packed several weeks 
                 of learning all the technologies necessary, we were tasked with one final Build Week project.'
                 createdOn='February 7, 2020'
                 link='https://gigapetdemo.netlify.com'

@@ -7,7 +7,7 @@ function AboutMe() {
         <Wrapper>
             <Title>A Little About Myself</Title>
             <Para>
-                I am a Full Stack Developer currently finishing school at <Link href='https://lambdaschool.com'>
+                I am a Full Stack Developer currently finishing school at <Link href='https://lambdaschool.com' rel='noopener noreferrer' target='_blank'>
                 Lambda School</Link>. For me, Lambda has been a game changer by
                 providing an incredible learning experience, along with a top
                 notch support framework. I have also completed Beginner and Advanced 

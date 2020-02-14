@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function PortfolioItem(props) {
     return (
         <Wrapper>
-            <Portal href={props.link}>
+            <Portal href={props.link} rel='noopener noreferrer' target='_blank'>
                 <Body>
                     <Card>
                         <h3>{props.projectTitle}</h3>
@@ -60,7 +60,7 @@ const Card = styled.section`
 `
 
 const Thumbnail = styled.img `
-    height: 12rem;
+    min-height: 100%;
     width: 95%;
 
     @media(max-width: 900px) {

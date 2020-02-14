@@ -7,9 +7,9 @@ import GitHub from '../images/github.png'
 function FindMe() {
     return (
         <Wrapper>
-            <a href='https://www.linkedin.com/in/cole-gonzales-787975191/'> <MediaLink src={LinkedIn} /> </a>
-            <a href='https://www.facebook.com/cole.gonzales.5'> <MediaLink src={Facebook} /> </a>
-            <a href='https://github.com/gcolegonzales'> <MediaLink src={GitHub} /> </a>
+            <a href='https://www.linkedin.com/in/cole-gonzales-787975191/' rel='noopener noreferrer' target='_blank'> <MediaLink src={LinkedIn} /> </a>
+            <a href='https://www.facebook.com/cole.gonzales.5' rel='noopener noreferrer' target='_blank'> <MediaLink src={Facebook} /> </a>
+            <a href='https://github.com/gcolegonzales' rel='noopener noreferrer' target='_blank'> <MediaLink src={GitHub} /> </a>
         </Wrapper>
     )
 }
