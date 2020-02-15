@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function HeaderHome() {
     return (
         <HeaderMain>
-            <Link href='https://github.com/gcolegonzales' rel='noopener noreferrer' target='_blank'>
+            <Link href='https://github.com/gcolegonzales' >
                 <Portriat src={ProfileImg} alt='Profile' />
                 <h2>Cole Gonzales</h2>
             </Link>
@@ -19,7 +19,7 @@ const HeaderMain = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(#1ac7b0, #008080);
+    background: radial-gradient(#5dc9c9, #008080);
 
     @media(max-width: 800px) {
         min-height: 40vh;

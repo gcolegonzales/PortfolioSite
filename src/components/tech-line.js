@@ -35,6 +35,11 @@ const TileWrapper = styled.div `
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    min-height: 43vh;
+
+    @media(max-width: 800px) {
+        min-height: 105vh;
+    }
 `
 
 const Tile = styled.img `
