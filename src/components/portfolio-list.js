@@ -31,7 +31,7 @@ function PortfolioList() {
                 imgSrc={NoiseController}
                 projectTitle='NoiseController'
                 itemDesc='This project was designed to help teachers maintain noise levels
-                in their class romms. I worked on the front end of this application. This was
+                in their class rooms. I worked on the front end of this application. This was
                 my second Build Week project in Lambda School.'
                 createdOn='September 30, 2019' 
                 link='https://noisecontrollerapp.netlify.com'
