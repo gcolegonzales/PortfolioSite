@@ -27,6 +27,7 @@ const Wrapper = styled.div `
     margin-top: 1rem;
     background-color: #bed1d1;
     transition: background .4s ease-in-out;
+    border-radius: .5rem;
 
     :hover {
         transition-time: 1s;
