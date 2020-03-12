@@ -5,7 +5,6 @@ import styled from 'styled-components'
 function AboutMe() {
     return (
         <Wrapper>
-            <Title>A Little About Myself</Title>
             <Para>
                 I am a Full Stack Developer currently finishing school at <Link href='https://lambdaschool.com' rel='noopener noreferrer' target='_blank'>
                 Lambda School</Link>. For me, Lambda has been a game changer by
@@ -25,12 +24,15 @@ const Wrapper = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: .4rem;
-`
+    padding: 1.4rem;
 
-const Title = styled.div `
-    font-size: 2.4rem;
-    padding-bottom: .4rem;
+    @media(min-width: 1080px) {
+        font-size: 1.9rem;
+    }
+
+    @media(min-width: 800px) {
+        font-size: 1.4rem;
+    }
 `
 
 const Para = styled.div `

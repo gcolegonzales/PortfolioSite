@@ -15,10 +15,14 @@ function FindMe() {
 }
 
 const Wrapper = styled.div `
-    padding-top: .3rem;
+    padding-top: .5rem;
     display: flex;
     justify-content: space-between;
     min-width: 25vw;
+
+    @media(min-width: 1080px) {
+        min-width: 35vw;
+    }
 
     @media(max-width: 800px) {
         min-width: 45vw;

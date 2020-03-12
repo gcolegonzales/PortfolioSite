@@ -11,12 +11,22 @@ function HomePage() {
         <Wrapper>
             <HeaderHome />
             <FindMe />
-            <AboutMe />
-            <TechLine />
+            <AboutSection>
+                <AboutMe />
+                <TechLine />
+            </AboutSection>
             <PortfolioList />
         </Wrapper>
     )
 }
+
+const AboutSection = styled.section `
+    @media(min-width: 1080px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+`
 
 const Wrapper = styled.div `
     display: flex;

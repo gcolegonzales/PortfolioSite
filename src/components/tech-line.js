@@ -37,6 +37,10 @@ const TileWrapper = styled.div `
     flex-wrap: wrap;
     min-height: 43vh;
 
+    @media(min-width: 1080px) {
+        max-width: 60%;
+    }
+
     @media(max-width: 800px) {
         min-height: 105vh;
     }
