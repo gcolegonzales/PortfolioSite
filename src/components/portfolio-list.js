@@ -19,16 +19,6 @@ function PortfolioList() {
     return (
         <List>
             <PortfolioItem
-                imgSrc={Freehold}
-                projectTitle='Freehold'
-                itemDesc='I had the opportunity to work on this build-on project with an awesome team! 
-                Through out the COVID-19 craziness, we all worked on this application as we could. This 
-                was a great opportunity to work with a real dev team on a real, shippable product.'
-                createdOn='May, 2020' 
-                link='https://freehold.dev'
-            />
-
-            <PortfolioItem
                 imgSrc={VRFunder}
                 projectTitle='VRFunder'
                 itemDesc='This was my very first Build Week project in Lambda School!
@@ -66,6 +56,16 @@ function PortfolioList() {
                 of learning all the technologies necessary, we were tasked with one final Build Week project.'
                 createdOn='February 7, 2020'
                 link='https://gigapetdemo.netlify.com'
+            />
+
+            <PortfolioItem
+                imgSrc={Freehold}
+                projectTitle='Freehold'
+                itemDesc='I had the opportunity to work on this build-on project with an awesome team! 
+                Through out the COVID-19 craziness, we all worked on this application as we could. This 
+                was a great opportunity to work with a real dev team on a real, shippable product.'
+                createdOn='May, 2020' 
+                link='https://freehold.dev'
             />
         </List>
     )
