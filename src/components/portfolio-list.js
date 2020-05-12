@@ -4,6 +4,7 @@ import VRFunder from '../images/VRFunder.jpeg'
 import NoiseController from '../images/NoiseController.jpeg'
 import Herodex from '../images/Herodex.jpeg'
 import Gigapet from '../images/Gigapet.jpeg'
+import Freehold from '../images/Freehold.png'
 import styled from 'styled-components'
 
 const List = styled.div `
@@ -17,6 +18,16 @@ const List = styled.div `
 function PortfolioList() {
     return (
         <List>
+            <PortfolioItem
+                imgSrc={Freehold}
+                projectTitle='Freehold'
+                itemDesc='I had the opportunity to work on this build-on project with an awesome team! 
+                Through out the COVID-19 craziness, we all worked on this application as we could. This 
+                was a great opportunity to work with a real dev team on a real, shippable product.'
+                createdOn='May, 2020' 
+                link='https://freehold.dev'
+            />
+
             <PortfolioItem
                 imgSrc={VRFunder}
                 projectTitle='VRFunder'
